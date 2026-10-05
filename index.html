@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    
+   
+    <h1>Tic-Tac-Toe</h1>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-game">New Game</button>
+    </div>
+
+    <div class="score-board hide" id="score-board">
+    <div class="score">
+        <h2 id="playerX-name">Player X</h2>
+        <p id="scoreX">0</p>
+    </div>
+
+    <div class="score">
+        <h2 id="playerO-name">Player O</h2>
+        <p id="scoreO">0</p>
+    </div>
+</div>
+<div class="final-winner hide">
+        <p id="msg-final">Final Winner</p>
+     
+    </div>
+  <button class="end-game hide">End Game</button> 
+  <button class="tie-breaker hide">Tie breaker</button> 
+    <main>
+        <div class="container">
+            <div id="game">
+                <button class="box"></button>
+                 <button class="box"></button>
+                  <button class="box"></button>
+                   <button class="box"></button>
+                    <button class="box"></button>
+                     <button class="box"></button>
+                      <button class="box"></button>
+                       <button class="box"></button>
+                        <button class="box"></button>
+            </div>
+         
+        </div>
+           <button id="reset-btn">Reset Game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
